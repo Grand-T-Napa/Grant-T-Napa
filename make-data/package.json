@@ -1,0 +1,38 @@
+{
+  "name": "cyber-dog-server",
+  "version": "1.0.0",
+  "description": "cyber dog game server",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc & nodemon src/index.ts",
+    "dev:debug": "tsc & nodemon --inspect-brk src/index.ts",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --ext ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.stisolutions.net/tsi-horse-racing-3d/game-server-new.git"
+  },
+  "keywords": [
+    "unity",
+    "game",
+    "server",
+    "dog"
+  ],
+  "author": "Khai tran",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.10",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
