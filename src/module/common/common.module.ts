@@ -4,9 +4,7 @@ import { SeedController } from './seed.controller';
 import { DefaultAvatar } from '../default-avatar/entities/avatar.entity';
 
 @Module({
-	imports: [
-		TypeOrmModule.forFeature([DefaultAvatar]),
-	],
+	imports: [TypeOrmModule.forFeature([DefaultAvatar])],
 	controllers: [SeedController],
 	providers: [],
 	exports: [],

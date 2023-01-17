@@ -16,10 +16,10 @@ import { DefaultAvatar } from './entities/avatar.entity';
 			signOptions: {
 				expiresIn: jwt_config.EXPIRES_IN,
 			},
-		})],
+		}),
+	],
 	controllers: [DefaultAvatarController],
 	providers: [DefaultAvatarService],
 	exports: [DefaultAvatarService],
 })
-
 export class DefaultAvatarModule {}
